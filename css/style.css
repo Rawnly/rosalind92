@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
-html, body { font-family: "Open Sans", "Roboto",sans-serif; color: #00d46a; background: #0e141a; }
+html, body { font-family: "Open Sans", "Roboto",sans-serif; color: #5DD7C5; background: #292E3D; }
 
 .container { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; }
 
@@ -11,4 +11,4 @@ h4 { padding: 0; font-size: 1.5em; color: white; font-weight: 300; }
 
 .logo { position: absolute; left: 50%; bottom: 0px; transform: translate(-50%, -50%); font-size: 2em; font-weight: 800; color: white; padding: 0; margin: 0; transition: all .3s; border-bottom: 1px solid transparent; }
 
-.logo:hover { cursor: pointer; border-bottom: 1px solid #00d46a; }
+.logo:hover { cursor: pointer; border-bottom: 1px solid #5DD7C5; }
