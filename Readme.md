@@ -1,2 +1,2 @@
 # Rosalind92
-> Testing WeDeploy web platform
+> Testing [WeDeploy](https://wedeploy.com) web platform
