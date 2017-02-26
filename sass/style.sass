@@ -1,0 +1,52 @@
+// compileCompact: ../css/$1.css
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800')
+
+$primary: rgb(14, 20, 26)
+$secondary: rgb(0, 212, 106)
+
+html, body
+	font-family: "Open Sans", "Roboto",sans-serif
+	color: $secondary
+	background: $primary
+
+.container
+	position: absolute
+	left: 50%
+	top: 50%
+	transform: translate(-50%, -50%)
+	text-align: center
+
+	h1, h4
+		font-family: "Open Sans", sans-serif
+		margin: 0
+
+
+h1
+	font-size: 72px
+	font-weight: 700
+	padding: 10px
+h4
+	padding: 0
+	font-size: 1.5em
+	color: white
+	font-weight: 300
+
+.logo
+	position: absolute
+	left: 50%
+	bottom: 0px
+	transform: translate(-50%, -50%)
+
+	font-size: 2em
+	font-weight: 800
+	color: white
+
+	padding: 0
+	margin: 0
+
+	transition: all .3s
+	border-bottom: 1px solid transparent
+	
+	&:hover
+		cursor: pointer
+		border-bottom: 1px solid $secondary
